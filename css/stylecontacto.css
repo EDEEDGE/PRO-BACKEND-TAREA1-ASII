@@ -1,0 +1,81 @@
+/* Reset de márgenes y padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Estilos generales */
+body {
+    background-color: #f9f9f9; /* Fondo negro */
+    color: #FFFFFF; /* Texto blanco */
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Estilos del contenedor del formulario */
+.container {
+    max-width: 600px;
+    margin: 20px auto; /* Centra el contenedor horizontalmente y añade margen superior/inferior */
+    padding: 20px;
+    background-color: #333333; /* Fondo gris oscuro */
+    border-radius: 5px; /* Bordes redondeados */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3); /* Sombra */
+}
+
+/* Estilos del título */
+h1 {
+    text-align: center;
+    color: #39FF14; /* Texto verde neón */
+}
+
+/* Estilos del formulario */
+form {
+    display: flex;
+    flex-direction: column; /* Coloca los elementos del formulario en una columna */
+}
+
+/* Estilos de las etiquetas */
+label {
+    font-weight: bold;
+    margin-bottom: 5px;
+    color: #FFFFFF; /* Texto blanco */
+}
+
+/* Estilos de los campos de entrada y área de texto */
+input, textarea {
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #8A2BE2; /* Borde morado */
+    border-radius: 3px; /* Bordes redondeados */
+    background-color: #000000; /* Fondo negro */
+    color: #FFFFFF; /* Texto blanco */
+}
+
+/* Placeholder en los campos de entrada y área de texto */
+input::placeholder, textarea::placeholder {
+    color: #CCCCCC; /* Placeholder gris claro */
+}
+
+/* Estilos del botón */
+button {
+    background-color: #00FFFF; /* Botón cian */
+    color: #000000; /* Texto negro */
+    padding: 10px 20px;
+    border: none;
+    border-radius: 3px; /* Bordes redondeados */
+    cursor: pointer;
+    transition: background-color 0.3s ease; /* Transición suave para el cambio de color */
+}
+
+/* Cambio de color del botón al pasar el mouse */
+button:hover {
+    background-color: #8A2BE2; /* Botón morado */
+    color: #FFFFFF; /* Texto blanco */
+}
+
+/* Estilos específicos para el textarea */
+textarea {
+    height: 150px;
+}
