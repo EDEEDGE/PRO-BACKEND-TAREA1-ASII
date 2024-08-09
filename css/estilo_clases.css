@@ -61,14 +61,12 @@ header .menu a.active {
     padding-bottom: 8px;
 }
 
+/* Sección principal */
 .main {
     text-align: center;
     padding: 50px 20px;
-    background-image: url('../img/background2.webp'); 
-    background-size: cover;
     background-position: center;
-    color: #ffffff; 
-    text-shadow: 4px 4px 8px rgb(36, 36, 36);
+    color: #000000cb; 
 }
 
 .main h1 {
@@ -84,8 +82,9 @@ header .menu a.active {
     line-height: 1.6;
 }
 
+/* Sección de Clases */
 section {
-    padding: 50px 0;
+    padding: 50px 20px;
 }
 
 h2 {
@@ -95,14 +94,14 @@ h2 {
     color: #333;
 }
 
-.productos, .clases {
+.clases {
     display: flex;
     flex-wrap: wrap;
     gap: 20px;
     justify-content: center;
 }
 
-.producto, .clase {
+.clase {
     flex: 1 1 calc(33% - 20px);
     background: #fff;
     border-radius: 10px;
@@ -114,17 +113,17 @@ h2 {
     align-items: center;
 }
 
-.producto:hover, .clase:hover {
+.clase:hover {
     transform: translateY(-10px);
 }
 
-.producto img, .clase img {
+.clase img {
     width: 100%;
     height: 200px;
     object-fit: cover;
 }
 
-.producto h3, .clase h3 {
+.clase h3 {
     background: #333;
     color: #fff;
     width: 100%;
@@ -133,13 +132,13 @@ h2 {
     margin: 0;
 }
 
-.producto p, .clase p {
+.clase p {
     padding: 20px;
     color: #555;
     text-align: center;
 }
 
-.producto a, .clase a {
+.clase a {
     display: inline-block;
     margin: 20px;
     padding: 10px 20px;
@@ -150,10 +149,11 @@ h2 {
     transition: background 0.3s ease;
 }
 
-.producto a:hover, .clase a:hover {
+.clase a:hover {
     background: #555;
 }
 
+/* Pie de página */
 footer {
     background: #333;
     color: #fff;
@@ -172,8 +172,9 @@ footer a {
     margin: 0 10px;
 }
 
+/* Responsividad */
 @media screen and (max-width: 768px) {
-    .producto, .clase {
+    .clase {
         flex: 1 1 calc(50% - 20px);
     }
 
@@ -183,7 +184,7 @@ footer a {
 }
 
 @media screen and (max-width: 480px) {
-    .producto, .clase {
+    .clase {
         flex: 1 1 100%;
     }
 
