@@ -1,0 +1,84 @@
+/* Reset de márgenes y padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Estilos generales */
+body {
+    font-family: 'Open Sans', sans-serif;
+    background-color: #f9f9f9; /* Fondo blanco */
+    color: #333; /* Texto oscuro */
+    margin: 0;
+    padding: 0;
+}
+
+/* Estilos del contenedor del formulario */
+.container {
+    max-width: 600px;
+    margin: 20px auto; /* Centra el contenedor horizontalmente y añade margen superior/inferior */
+    padding: 20px;
+    background-color: #ffffff; /* Fondo blanco */
+    border-radius: 10px; /* Bordes redondeados */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra */
+}
+
+/* Estilos del título */
+h1 {
+    text-align: center;
+    color: #333333; /* Texto oscuro */
+    font-size: 2rem; /* Tamaño de fuente ajustado */
+    margin-bottom: 20px;
+}
+
+/* Estilos del formulario */
+form {
+    display: flex;
+    flex-direction: column; /* Coloca los elementos del formulario en una columna */
+}
+
+/* Estilos de las etiquetas */
+label {
+    font-weight: bold;
+    margin-bottom: 5px;
+    color: #333333; /* Texto oscuro */
+}
+
+/* Estilos de los campos de entrada y área de texto */
+input, textarea {
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #cccccc; /* Borde gris claro */
+    border-radius: 5px; /* Bordes redondeados */
+    background-color: #ffffff; /* Fondo blanco */
+    color: #333333; /* Texto oscuro */
+}
+
+/* Placeholder en los campos de entrada y área de texto */
+input::placeholder, textarea::placeholder {
+    color: #999999; /* Placeholder gris medio */
+}
+
+/* Estilos del botón */
+button {
+    background-color: #333333; /* Botón oscuro */
+    color: #ffffff; /* Texto blanco */
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px; /* Bordes redondeados */
+    cursor: pointer;
+    transition: background-color 0.3s ease; /* Transición suave para el cambio de color */
+    font-weight: bold;
+    text-transform: uppercase; /* Texto en mayúsculas */
+}
+
+/* Cambio de color del botón al pasar el mouse */
+button:hover {
+    background-color: #555555; /* Botón gris oscuro */
+}
+
+/* Estilos específicos para el textarea */
+textarea {
+    height: 150px;
+}
