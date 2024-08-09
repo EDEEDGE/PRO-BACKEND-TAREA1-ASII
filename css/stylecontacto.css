@@ -7,9 +7,9 @@
 
 /* Estilos generales */
 body {
-    background-color: #f9f9f9; /* Fondo negro */
-    color: #FFFFFF; /* Texto blanco */
-    font-family: Arial, sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    background-color: #f9f9f9; /* Fondo blanco */
+    color: #333; /* Texto oscuro */
     margin: 0;
     padding: 0;
 }
@@ -19,15 +19,17 @@ body {
     max-width: 600px;
     margin: 20px auto; /* Centra el contenedor horizontalmente y añade margen superior/inferior */
     padding: 20px;
-    background-color: #333333; /* Fondo gris oscuro */
-    border-radius: 5px; /* Bordes redondeados */
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3); /* Sombra */
+    background-color: #ffffff; /* Fondo blanco */
+    border-radius: 10px; /* Bordes redondeados */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra */
 }
 
 /* Estilos del título */
 h1 {
     text-align: center;
-    color: #39FF14; /* Texto verde neón */
+    color: #333333; /* Texto oscuro */
+    font-size: 2rem; /* Tamaño de fuente ajustado */
+    margin-bottom: 20px;
 }
 
 /* Estilos del formulario */
@@ -40,39 +42,40 @@ form {
 label {
     font-weight: bold;
     margin-bottom: 5px;
-    color: #FFFFFF; /* Texto blanco */
+    color: #333333; /* Texto oscuro */
 }
 
 /* Estilos de los campos de entrada y área de texto */
 input, textarea {
     padding: 10px;
-    margin-bottom: 10px;
-    border: 1px solid #8A2BE2; /* Borde morado */
-    border-radius: 3px; /* Bordes redondeados */
-    background-color: #000000; /* Fondo negro */
-    color: #FFFFFF; /* Texto blanco */
+    margin-bottom: 15px;
+    border: 1px solid #cccccc; /* Borde gris claro */
+    border-radius: 5px; /* Bordes redondeados */
+    background-color: #ffffff; /* Fondo blanco */
+    color: #333333; /* Texto oscuro */
 }
 
 /* Placeholder en los campos de entrada y área de texto */
 input::placeholder, textarea::placeholder {
-    color: #CCCCCC; /* Placeholder gris claro */
+    color: #999999; /* Placeholder gris medio */
 }
 
 /* Estilos del botón */
 button {
-    background-color: #00FFFF; /* Botón cian */
-    color: #000000; /* Texto negro */
+    background-color: #333333; /* Botón oscuro */
+    color: #ffffff; /* Texto blanco */
     padding: 10px 20px;
     border: none;
-    border-radius: 3px; /* Bordes redondeados */
+    border-radius: 5px; /* Bordes redondeados */
     cursor: pointer;
     transition: background-color 0.3s ease; /* Transición suave para el cambio de color */
+    font-weight: bold;
+    text-transform: uppercase; /* Texto en mayúsculas */
 }
 
 /* Cambio de color del botón al pasar el mouse */
 button:hover {
-    background-color: #8A2BE2; /* Botón morado */
-    color: #FFFFFF; /* Texto blanco */
+    background-color: #555555; /* Botón gris oscuro */
 }
 
 /* Estilos específicos para el textarea */
